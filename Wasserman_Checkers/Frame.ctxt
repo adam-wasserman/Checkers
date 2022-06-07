@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Frame
+comment0.text=\n\ Graphically\ represents\ a\ checkers\ game\ between\ two\ people.\ Provides\ buttons\ that\n\ allow\ players\ to\ click\ to\ move\ pieces.\ The\ class\ additionally\ provides\ various\n\ methods\ that\ help\ the\ game\ run\ internally,\ such\ as\ methods\ to\ double\ jump\ or\ find\n\ the\ available\ spaces\ to\ which\ a\ piece\ can\ move.\n\n\ @author\ (Adam\ Wasserman)\n\ @version\ (1/21/20)\n
+comment1.params=
+comment1.target=Frame()
+comment1.text=\n\ Initializes\ a\ graphical\ representation\ of\ the\ 8x8\ board\ as\ a\ JFrame.\ The\ pieces\n\ are\ represented\ as\ buttons\ to\ make\ the\ board\ interactive.\n
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Starts\ the\ program\ by\ instantiating\ the\ Frame\ class.\n\ @param\ args\ Unused.\n
+comment4.params=
+comment4.target=void\ updateBoard()
+comment5.params=e
+comment5.target=java.util.ArrayList\ scan(java.awt.event.ActionEvent)
+comment6.params=row\ col
+comment6.target=java.util.ArrayList\ findAvailable(int,\ int)
+comment6.text=\n\ Returns\ a\ list\ of\ the\ spaces\ a\ piece\ can\ move\n\ @param\ row\ the\ row\ of\ the\ piece\ to\ move\n\ @param\ col\ the\ column\ of\ the\ piece\ to\ move\n\ @return\ the\ ArrayList\ of\ the\ available\ spaces\n
+comment7.params=row\ col
+comment7.target=boolean\ canDouble(int,\ int)
+comment8.params=
+comment8.target=void\ resetColors()
+numComments=9

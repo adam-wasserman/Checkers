@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\n\ Represents\ a\ checker\ board\ and\ provides\ functions\ to\ play\ a\ game\ with\ two\ people.\n\n\ @author\ (Adam\ Wasserman)\n\ @version\ (1/17/2020)\n
+comment1.params=
+comment1.target=Board()
+comment1.text=\n\ Instantiates\ an\ 8x8\ board\ as\ a\ 2-D\ array\ with\ the\ pieces\ in\ starting\ position.\n\ Team\ 1's\ pieces\ will\ start\ on\ the\ bottom.\ Team\ 2's\ pieces\ will\ start\ on\ the\ top.\n\ Empty\ spaces\ will\ be\ represented\ by\ a\ piece\ of\ team\ 0.\ Player\ will\ will\ go\ first.\n
+comment2.params=row\ col\ newRow\ newCol
+comment2.target=boolean\ movePiece(int,\ int,\ int,\ int)
+comment2.text=\n\ Move\ the\ piece\ at\ the\ given\ location\ to\ another\ given\ location\ if\ that\ move\ is\ valid.\n\ Otherwise,\ it\ returns\ false.\n\ @param\ row\ the\ piece's\ current\ row\n\ @param\ col\ the\ piece's\ current\ column\n\ @param\ newRow\ the\ row\ of\ the\ space\ to\ which\ the\ piece\ will\ be\ moved\n\ @param\ newCol\ the\ column\ of\ the\ space\ to\ which\ the\ piece\ will\ be\ moved\n\ @return\ whether\ or\ not\ the\ move\ was\ valid\n
+comment3.params=
+comment3.target=Piece[][]\ getBoard()
+comment3.text=\n\ Gets\ the\ 2-D\ array\ which\ represents\ the\ current\ board\n\ @return\ the\ 2-D\ array\ that\ represents\ the\ current\ board\n
+comment4.params=newPlayer
+comment4.target=void\ setPlayer(int)
+comment4.text=\n\ Will\ set\ the\ turn\ to\ the\ player\ corresponding\ to\ the\ given\ integer\n\ @param\ the\ integer\ corresponding\ to\ the\ player\ whose\ turn\ it\ will\ be\n
+comment5.params=
+comment5.target=int\ getPlayer()
+comment5.text=\n\ Gets\ the\ player\ whose\ turn\ it\ currently\ is\n\ @return\ the\ integer\ corresponding\ to\ the\ player\ whose\ turn\ it\ is\n
+numComments=6

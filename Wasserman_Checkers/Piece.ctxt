@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Piece
+comment0.text=\n\ Represents\ an\ single\ checkers\ piece.\ States\ whether\ the\ piece\ is\ a\ king\ and\n\ to\ what\ team\ it\ belongs\n\n\ @author\ (Adam\ Wasserman)\n\ @version\ (1/17/2020)\n
+comment1.params=my_team
+comment1.target=Piece(int)
+comment1.text=\n\ Initializes\ a\ piece\ to\ not\ be\ a\ king\ and\ to\ belong\ to\ provided\ team.\n\ A\ piece\ belonging\ to\ team\ 0\ will\ function\ like\ a\ blank\ space.\n\ @param\ theTeam\ the\ team\ to\ which\ the\ piece\ will\ belong.\n\ If\ the\ team\ is\ 0,\ the\ piece\ will\ be\ treated\ like\ an\ empty\ space.\n\ Precondition\:\ the\ integer\ provided\ must\ be\ 0,\ 1,\ or\ 2.\n
+comment2.params=
+comment2.target=int\ team()
+comment2.text=\n\ Returns\ the\ team\ to\ which\ a\ piece\ belongs\n\ @return\ the\ team\ to\ which\ the\ piece\ belongs\ as\ an\ integer\n
+comment3.params=
+comment3.target=void\ setEmpty()
+comment3.text=\n\ Sets\ the\ team\ to\ 0\ and\ makes\ it\ a\ regular\ piece\ (not\ a\ king)\n
+comment4.params=row
+comment4.target=void\ makeKing(int)
+comment4.text=\n\ If\ at\ the\ proper\ end\ of\ the\ board,\ makes\ the\ piece\ a\ king\n\ @param\ row\ the\ piece's\ current\ row\n
+comment5.params=
+comment5.target=boolean\ isKing()
+comment5.text=\n\ Checks\ if\ a\ piece\ is\ a\ king\n\ @return\ whether\ or\ not\ the\ piece\ is\ a\ king\n
+numComments=6
